@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Soulfish</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="container">
+        <!-- header -->
+        <header class="header">
+          <div class="header-content">
+            <div class="header-content__location">
+              <img src="./img/vector.png" alt="Vector" class="header-content__location_icon" />
+              <span class="header-content__location_street">Івана Акінфєєва, 12б</span>
+            </div>
+            <div class="header-content__phone">
+              <img src="./img/phone.png" alt="Phone" class="header-content__phone_icon" />
+              <span class="header-content__phone_number">+38(067)485 1000</span>
+            </div>
+            <div class="header-content__language">
+              <span class="header-content__language_text">UA</span>
+              <img src="./img/arrow.png" alt="Arrow" class="header-content__language_icon" />
+            </div>
+            <div class="header-content__social">
+              <div class="img">
+                <img src="./img/facebook.png" alt="Facebook" class="header-content__social_facebook common" />
+                <img src="./img/twitter.png" alt="Twitter" class="header-content__social_twitter common" />
+                <img src="./img/instagram.png" alt="Instagram" class="header-content__social_instagram common" />
+                <img src="./img/google.png" alt="Google" class="header-content__social_google common" />
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- navbar -->
+        <div class="navbar">
+          <div class="navbar__logo">
+            <img src="/img/logo-Fish.png" alt="Fish" class="navbar__logo_img" />
+          </div>
+          <nav class="navbar__navigation">
+            <a class="navbar__navigation_text" href="/">галерея</a>
+            <a class="navbar__navigation_text" href="/">інтерʼєр</a>
+            <a class="navbar__navigation_text" href="/">події</a>
+            <a class="navbar__navigation_text" href="/">контакти</a>
+          </nav>
+          <div class="navbar__burger">
+            <img
+              src="https://img.icons8.com/ios/50/111111/menu--v1.png "
+              alt="Burger"
+              class="navbar__burger_img"
+            />
+          </div>
+          <button class="navbar__btn">доставка онлайн</button>
+        </div>
+        <!-- banner -->
+        <section class="banner">
+          <span class="banner__text">Рибний ресторан, і не тільки! </span>
+          <div class="banner__title">Soulfish</div>
+          <div class="banner__underscore"></div>
+          <div class="banner__ellipses">
+            <div class="banner__ellipses_one total"></div>
+            <div class="banner__ellipses_two total"></div>
+            <div class="banner__ellipses_three total"></div>
+          </div>
+        </section>
+        <main>
+          <!-- about -->
+          <section class="about">
+            <div class="about__description center">
+              <p class="about__description_title">О нашем ресторане</p>
+              <h1 class="about__description_name">Soulfish</h1>
+              <div class="about__description_line"></div>
+              <p class="about__description_text">
+                На нашей витрине особенные гости из Испании: охлажденная рыба Дорадо, креветки Carabineros и филе тунца
+                Сальвадор. Они проходят строгий отбор качест- ва и есть всего 3 дня, чтобы вы успели оценить их вкусовую
+                палитру. Ведь у нас вы встретите блюда только из свежей, охлажденной рыбы и морепродуктов, которые мы
+                храним на ледяной подушке в специальной фреш-камере при температуре 0-2°
+              </p>
+              <button class="about__description_btn">Замовити столик</button>
+            </div>
+            <img src="./img/restaurant.png" alt="Inside our restaurant" class="about__image" />
+          </section>
+          <!-- menu-description -->
+          <section class="menu-description">
+            <div class="menu-description__buttons">
+              <button class="menu-description__buttons_btn-restaurant common">
+                Меню ресторану
+                <img src="./img/arrow-btn.png" alt="Arrow" />
+              </button>
+              <button class="menu-description__buttons_btn-wine common">
+                Винная карта
+                <img src="./img/arrow-btn.png" alt="Arrow" />
+              </button>
+            </div>
+            <p class="menu-description__text">
+              На нашей витрине особенные гости из Испании: охлажденная рыба Дорадо, креветки Carabineros и филе тунца
+              Сальвадор. Они проходят строгий отбор качества и есть всего 3 дня, чтобы вы успели оценить их вкусовую
+              палитру. Ведь у нас вы встре-тите блюда только из свежей, охлажденной рыбы и море- продуктов, которые мы
+              храним на ледяной подушке в специальной фреш-камере при температуре 0-2°
+            </p>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

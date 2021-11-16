@@ -1,0 +1,92 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0px auto;
+  height: 43px;
+  background: #083456;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 84px;
+
+  &__location {
+    @media (max-width: 767px) {
+      display: none;
+    }
+
+    &_street {
+      @media (max-width: 1440px) {
+        display: none;
+      }
+
+      @media (max-width: 992px) {
+        display: none;
+      }
+    }
+  }
+
+  &__phone {
+    padding-left: 0.8rem;
+
+    @media (max-width: 767px) {
+      display: none;
+    }
+
+    &_number {
+      @media (max-width: 992px) {
+        display: none;
+      }
+    }
+  }
+
+  &__language {
+    padding-left: 782px;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 1440px) {
+      padding-left: 30rem;
+    }
+
+    @media (max-width: 992px) {
+      padding-left: 22rem;
+    }
+
+    @media (max-width: 767px) {
+      padding-left: 20rem;
+    }
+
+    &_text {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 25px;
+      color: #ffffff;
+    }
+  }
+
+  &__social {
+    padding-left: 3rem;
+
+    @media (max-width: 1440px) {
+      padding-left: 2rem;
+    }
+
+    .common {
+      padding-left: 1.5rem;
+    }
+
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+}

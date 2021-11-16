@@ -1,0 +1,111 @@
+.about {
+  display: flex;
+  padding-left: 86px;
+  padding-top: 53px;
+  padding-right: 78px;
+  padding-bottom: 75px;
+  background-color: #ffffff;
+
+  @media (max-width: 1440px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width: 992px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width: 767px) {
+    padding: 2rem;
+  }
+
+  &__description {
+    @media (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &_title {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 25px;
+      color: #ba9054;
+      margin: 0;
+      padding-left: 1.5rem;
+
+      @media (max-width: 767px) {
+        text-align: center;
+        padding-left: 0;
+      }
+    }
+
+    &_name {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 46px;
+      line-height: 25px;
+      color: #083456;
+      text-transform: uppercase;
+      padding-top: 14px;
+      margin: 0;
+    }
+
+    &_line {
+      width: 70px;
+      height: 1px;
+      background: #083456;
+      margin-top: 1rem;
+      margin-left: 4.5rem;
+
+      @media (max-width: 767px) {
+        margin-left: 0;
+      }
+    }
+
+    &_text {
+      width: 638px;
+      height: 168px;
+      padding-right: 68px;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 26px;
+      color: #525252;
+
+      @media (max-width: 1440px) {
+        width: 100%;
+        height: 100%;
+      }
+
+      @media (max-width: 767px) {
+        padding: 0 2rem;
+      }
+    }
+
+    &_btn {
+      width: 221px;
+      height: 41px;
+      color: #ffffff;
+      background: #0f507a;
+      border-radius: 5px;
+      border: none;
+      margin-bottom: 16px;
+
+      font-family: Cormorant;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+
+      @media (max-width: 767px) {
+        width: 10rem;
+      }
+    }
+  }
+}
